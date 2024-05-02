@@ -1,70 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .first-section {
-      background-color: white;
-    }
-
-    .section-image-container {
-      padding: 10px;
-      /* Add padding */
-      margin-top: 40px;
-      /* Add margin */
-      margin-left: 10px;
-    }
-
-    .section-image {
-      max-width: 100%;
-      height: 500px;
-      transition: transform 0.3s ease-in-out;
-      /* Add a smooth transition effect */
-    }
-
-    .section-image:hover {
-      transform: scale(1.05);
-      /* Scale up the image on hover */
-    }
-  </style>
-</head>
-
-<body>
-  <section class="first-section">
-    <div class="container-fluid h-100 py-4">
-      <div class="row h-100">
-        <div class="col-md-6 d-flex align-items-center">
-          <div>
-            <h1 class="text-primary font-weight-bold mb-4 display-2">Create and issue <br> digital certificates <br> in minutes</h1>
-            <p class="text-muted" style="padding-bottom: 20px; font-size: 20px">With our platform, you can effortlessly generate customized certificates and credentials for your recipients. Whether it's for awards, achievements, or acknowledgments, our one-click solution simplifies the process.</p>
-
-            <div class="mt-5">
-              <a href="#" class="btn btn-lg btn-primary mb-2 mb-md-0">Explore more <span class="text-white font-weight-bold">›</span></a>
-              <a href="#" class="btn btn-lg btn-outline-primary ml-3 mb-2 mb-md-0">Samples <span class="text-primary font-weight-bold">›</span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-10">
-          <div class="section-image-container">
-            <img class="img-fluid rounded section-image" src="hero-section.jpeg" alt="Placeholder image">
-          </div>
+<hr>
+<section class="hero2-section">
+  <div class="container-rightt">
+    <!-- Content for the hero section -->
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center" style="color:white;">
+        <div>
+            <h1 class=" font-weight-bold mb-4 display-1" style="margin-top: 155px; font-size: 3.5rem; color:wheat;">your reliable<br> pocket buddy</h1>
+            <p class="text-muted" style="padding-bottom: 20px; font-size: 1.25rem;">why chat with buddy</p>
+             <ul style="font-size: 1.25rem;">
+                <li>24/7 Chat Support 🕒</li>
+                <li>Personalized Conversations 💬</li>
+                <li>Advanced AI Technology 🤖</li>
+            </ul>
         </div>
       </div>
+      
+      <div class="col-md-6">
+       
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Botpress Webchat -->
-  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/8188c1e3-2d43-4a1a-a799-f0684b21941b/webchat/config.js" defer></script>
-</body>
 
-</html>
+<style>
+.hero2-section {
+  background-image: url('hero2.webp');
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  height: calc(100vh ); /* Set the height of the section to 100% viewport height minus navbar height */
+  width: 100%; /* Set the width to cover the entire viewport */
+  color: #ffffff; /* Set text color to white for better contrast */
+}
+
+.container-rightt {
+  padding: 0 30px; /* Add some padding for better readability */
+  width: 100%; /* Limit the width of the content container */
+  
+}
+
+.section-image-container {
+  padding: 10px; /* Add padding */
+  margin-top: 40px; /* Add margin */
+  margin-left: 10px;
+}
+
+.section-image {
+  max-width: 90%;
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.section-image:hover {
+  transform: scale(1.05); /* Scale up the image on hover */
+}
+</style>
