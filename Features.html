@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Krishna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .navbar {
+            height: 66px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 2px solid #dee2e6;
+            padding-left: 20px;
+            padding-right: 20px;
+            z-index: 1000;
+          
+            position: sticky;
+             top: 0;
+        }
+        .navbar-collapse {
+    z-index: 999;
+}
+
+
+        .navbar-brand img {
+            height: 50px;
+            border-radius: 50%;
+            transform: scale(1.5);
+            transition: transform 0.3s;
+        }
+
+        .navbar-brand img:hover {
+            transform: scale(1.8);
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            color: #343a40;
+            font-weight: bold;
+            transition: color 0.3s, background-color 0.3s;
+            padding-left: 25px;
+            margin-right: 25px;
+            border-radius: 25px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffffff !important;
+            background-color: #000000;
+        }
+
+        .navbar h4 {
+            font-size: 1.5rem;
+            margin-left: 20px;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+                <img src="logo.jpg" alt="Your Logo">
+            </a>
+            <h4 class="text-2xl font-bold">KrishnaVani</h4>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Collapse -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="KrishnaVani_page.html">Buddy-KrishnaVani</a>
+                    </li>
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="Features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About-us.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap JS (including jQuery and Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-7QIeg/u9l/FbKSrO3Zwp5WzRJgzBDz0DqdU8hZblX8HzUA1qeI9+/J6a2KeiY5EY" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+  <!-- why who section -->
+  <head>
+    <style>
+      /* Custom CSS to reduce image size */
+      .reduce-image-size img {
+          max-width: 100%; /* Adjust the percentage as needed */
+          height: auto;
+          margin-top: 0px;
+      }
+  
+      /* Adjust spacing */
+      .section-content {
+          padding-top: 0px; /* Adjust as needed */
+      }
+  
+      .section-content h1,
+      .section-content p,
+      .btn-primary {
+          opacity: 0; /* Initially set opacity to 0 */
+      }
+  
+      /* Animation keyframes */
+      @keyframes fadeIn {
+          0% {
+              opacity: 0; /* Start with opacity 0 */
+          }
+          100% {
+              opacity: 1; /* End with opacity 1 */
+          }
+      }
+  
+      .section-content h1 {
+          animation: fadeIn 1s ease-in-out 1s forwards; /* Fade in title after 1 second */
+      }
+  
+      .section-content p {
+          animation: fadeIn 1s ease-in-out 2s forwards; /* Fade in paragraphs after 2 seconds */
+      }
+  
+      .btn-primary {
+          animation: fadeIn 1s ease-in-out 3s forwards; /* Fade in button after 3 seconds */
+      }
+    
+    </style>
+  </head>
+  <div class="bg-gray-900 text-gray-400">
+    <section class="py-5 reduce-image-size">
+        <div class="container mx-auto">
+            <div class="row align-items-start">
+              <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+                <img class="img-fluid rounded" alt="hero" src="fature01.gif" style="width: 120%; height: auto;">
+              </div>
+  
+              <div class="col-lg-6 col-md-10">
+                <div class="section-content">
+                  <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-primary text-center text-md-left mt-0">"Empowering Connections: Our Supportive Features 🌟"</h1>
+                 
+<ul style="font-size: 25px;">
+    <li>Buddy Support System 🤝</li>
+    <li>Real-time Assistance 💬</li>
+    <li>24/7 Availability ⏰</li>
+    <li>Real Listener Feature 👂</li>
+    <li>Lifelong Learning Partner 📚</li>
+    <li>Empathy Hub 🤗</li>
+    <li>Confidential Confidant 🔒</li>
+    <li>Personal Cheerleader 📣</li>
+    <li>Swift Companion 🚀</li>
+  </ul>
+                 
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 reduce-image-size" ">
+      <div class="container mx-auto">
+          <div class="row align-items-start">
+              <div class="col-lg-6 col-md-10">
+                  <div class="section-content">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-primary text-center text-md-left mt-0"> <span class="text-primer" style="font-size: 36px;">👋"Compassionate Connections: Our Supportive Services 🌟"</h1>
+                 <br>
+                      
+                    <ul  style="font-size: 25px;">
+                      <li>Virtual Venting Vault 🗣️</li>
+                      <li>Compassionate Counselor 🎗️</li>
+                      <li>Reliable Advisor 📞</li>
+                      <li>Responsive Pal 📲</li>
+                      <li>Understanding Ally 🤝</li>
+                      <li>Supportive Mentor 🌟</li>
+                      <li>Encouraging Guide 🗺️</li>
+                      <li>Instant Encouragement Engine 💡</li>
+                      <li>Compassionate Listener 🎧</li>
+                      <li>Always-On Advocate 🌐</li>
+                    </ul>
+                      
+                  </div>
+              </div>
+  
+              <div class="col-lg-6 col-md-12 mb-5 mb-lg-0"  style="margin-top: 50px;">
+                  <img class="img-fluid rounded" alt="hero" src="hero.jpg">
+              </div>
+          </div>
+      </div>
+  </section>
+  </div>
+
+
+
+
+<!-- why section -->
+
+
+  <div class="bg-gray-900 text-gray-400">
+    <section class="py-5 reduce-image-size">
+        <div class="container mx-auto">
+            <div class="row align-items-start">
+              <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+                <img class="img-fluid rounded" alt="hero" src="featur02.gif" style="width: 220%; height: auto;">
+            </div>
+  
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-content">
+                      <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-primary text-center text-md-left mt-0"> <span class="text-primer">"Empathetic Support Network: Your Trusted Allies 🤝"</h1>
+
+                        <p class="mb-8 leading-relaxed" style="font-size: 20px;">
+                          <ul 
+                          style="font-size: 25px;">
+                            <li>Instant Connection Conduit 🔗</li>
+                            <li>Sincere Sympathizer 💖</li>
+                            <li>Empathetic Ear 👂</li>
+                            <li>Lifesaver Lifeline 🆘</li>
+                            <li>Caring Companion 🌺</li>
+                            <li>Genuine Guardian 🛡️</li>
+                            <li>Swift Shoulder to Lean On 💪</li>
+                            <li>Virtual Venting Venue 🌀</li>
+                            <li>Relatable Supporter 🤝</li>
+                            <li>Friendly Listening Lounge 🎶</li>
+                          </ul>
+                        </p>
+                      
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<hr>
+<!-- Footer section -->
+<style>
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+  }
+
+  .footer-left,
+  .footer-right {
+    flex: 1;
+    text-align: center;
+    color: white; /* Adjust text color */
+  }
+
+  .footer-center {
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  @media (max-width: 768px) {
+    .footer-left,
+    .footer-right {
+      flex: 0 0 100%; /* Update this line */
+    }
+
+    .footer-center {
+      flex: 100%;
+      margin-left: 180px; /* Update this line */
+    }
+  }
+
+  /* Style for the logo */
+  .footer-center img {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid white; /* Add border */
+  }
+</style>
+
+<footer>
+  <div class="footer-left">
+    © 2020 Copyright
+  </div>
+  <div class="footer-center">
+    <img src="logo.jpg" alt="Logo">
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="KrishnaVani_page.html">Buddy-KrishnaVani</a></li>
+        <li><a href="Features.html">Features</a></li>
+        <li><a href="contact-us.html">Contact us</a></li>
+        <li><a href="About-us.html">About Us</a></li>
+  
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </section>
+  
+  
+  </div>
+  
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS and other scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Krishna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .navbar {
+            height: 66px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 2px solid #dee2e6;
+            padding-left: 20px;
+            padding-right: 20px;
+            z-index: 1000;
+          
+          position: sticky;
+           top: 0;
+      }
+      .navbar-collapse {
+  z-index: 999;
+}
+        .navbar-brand img {
+            height: 50px;
+            border-radius: 50%;
+            transform: scale(1.5);
+            transition: transform 0.3s;
+        }
+
+        .navbar-brand img:hover {
+            transform: scale(1.8);
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            color: #343a40;
+            font-weight: bold;
+            transition: color 0.3s, background-color 0.3s;
+            padding-left: 25px;
+            margin-right: 25px;
+            border-radius: 25px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffffff !important;
+            background-color: #000000;
+        }
+
+        .navbar h4 {
+            font-size: 1.5rem;
+            margin-left: 20px;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+                <img src="logo.jpg" alt="Your Logo">
+            </a>
+            <h4 class="text-2xl font-bold">KrishnaVani</h4>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Collapse -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="KrishnaVani_page.html">Buddy-KrishnaVani</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About-us.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap JS (including jQuery and Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-7QIeg/u9l/FbKSrO3Zwp5WzRJgzBDz0DqdU8hZblX8HzUA1qeI9+/J6a2KeiY5EY" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+    
+ 
+    <section class="hero2-section">
+        <div class="container-rightt">
+        
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center" style="color:white;">
+              <div>
+                <h1 class="font-weight-bold mb-4 display-1" style="margin-top: 50px; font-size: 3.5rem; color:wheat;">your reliable<br> pocket buddy</h1>
+                <p class="text-primary" style="padding-bottom: 20px; font-size: 2.25rem;">KrishnaVani 🤖</p>
+                <ul style="font-size: 1.25rem;">
+                  <li>Round-the-Clock Chat Assistance 🕒</li>
+<li>Custom-tailored Conversations 💬</li>
+<li>Cutting-edge AI Innovations 🤖</li>
+<li>Lightning-fast Response Time ⚡</li>
+<li>Immersive Chat Challenges 🎮</li>
+<li>Heartfelt Emotional Support ❤️‍🩹</li>
+<li>Fluid Conversation Dynamics 🌊</li>
+<li>Curated Personalized Suggestions 🎁</li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div id="chatModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+          
+            <div id="botpressWebchatContainer"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="col-md-6">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    
+            
+    
+    
+    <style>
+    .hero2-section {
+      background-image: url('hero2.webp');
+      background-size: cover; /* Cover the entire section */
+      background-position: center; /* Center the background image */
+      height: calc(100vh ); /* Set the height of the section to 100% viewport height minus navbar height */
+      width: 100%; /* Set the width to cover the entire viewport */
+      color: #ffffff; /* Set text color to white for better contrast */
+    }
+    
+    .container-rightt {
+      padding: 0 30px; /* Add some padding for better readability */
+      width: 100%; /* Limit the width of the content container */
+      
+    }
+    
+    .section-image-container {
+      padding: 10px; /* Add padding */
+      margin-top: 40px; /* Add margin */
+      margin-left: 10px;
+    }
+    
+    .section-image {
+      max-width: 90%;
+      height: auto;
+      transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    }
+    
+    .section-image:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+    }
+    </style>
+    
+
+
+
+<!-- Botpress Webchat 
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/8188c1e3-2d43-4a1a-a799-f0684b21941b/webchat/config.js" defer></script>
+-->
+
+
+    <style>
+      .om {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: white;
+        background-color: #000000;
+        font-family: Arial, sans-serif;
+      }
+ 
+      .center-div {
+        width: 50vw;
+        height: 80vh;
+        background-color: rgb(102, 71, 255);
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+ 
+      @media only screen and (max-width: 600px) {
+        .center-div {
+          height: 40vh;
+          width: 80vw;
+          background-color: rgb(102, 71, 255);
+          border-radius: 15px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+ 
+  
+  <!--changes body to div--> <div class="om">
+    <div>
+      <p style="text-align: center; font-size: 26px;">KrishnaVani 🤖<span></span><span>
+       <div></span></p>
+      <div class="absolute inset-4 ">
+        <div
+          class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
+        >
+          <iframe
+            style="border: none;"
+            srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+            <script>
+              window.botpressWebChat.init({
+                  'composerPlaceholder': 'Chat with bot',
+                  'botConversationDescription': 'Your Reliable Pocket Buddy! 🤖✨',
+                  'botName': 'KrishnaVani',
+                  'botId': '440c1b6b-761f-48ab-8faf-4664a7adf3c8',
+                  'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
+                  'messagingUrl': 'https://messaging.botpress.cloud',
+                  'clientId': '440c1b6b-761f-48ab-8faf-4664a7adf3c8',
+                  'enableConversationDeletion': true,
+                  'showPoweredBy': false,
+                  'className': 'webchatIframe',
+                  'containerWidth': '100%25',
+                  'layoutWidth': '100%25',
+                  'hideWidget': true,
+                  'showCloseButton': false,
+                  'disableAnimations': true,
+                  'closeOnEscape': false,
+                  'showConversationsButton': false,
+                  'enableTranscriptDownload': false,
+                 
+                  
+              });
+            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+            </script>
+            <!--changes body to div-->   </div>"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+</div>
+
+  
